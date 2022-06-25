@@ -8,3 +8,10 @@ function boxs() {
 for (let i = 0; i < 256; i++) {
   boxs();
 }
+
+let alldiv = document.querySelectorAll('.empty');
+alldiv.forEach((element) => {
+  element.addEventListener('mouseenter', () => {
+    element.classList.add('fill');
+  });
+});
