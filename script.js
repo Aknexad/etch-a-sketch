@@ -1,4 +1,4 @@
-function gridArea(sizeValue) {
+function gridArea(sizeValue = 16) {
   // clean grid area
   let clearGrid = document.querySelectorAll('div.empty');
   clearGrid.forEach((element) => {
@@ -37,4 +37,15 @@ const game = () => {
   });
 };
 
+const cleanArea = () => {
+  let clearBtn = document.querySelector('#clear');
+  clearBtn.addEventListener('click', () => {
+    gridArea();
+    draw();
+  });
+};
+
+gridArea();
+draw();
 game();
+cleanArea();
