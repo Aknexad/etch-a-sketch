@@ -46,6 +46,7 @@ const cleanArea = () => {
     gridArea();
     draw();
     document.querySelector('#gtidSize').value = 16;
+    document.querySelector('p').innerHTML = `16 x 16`;
   });
 };
 
