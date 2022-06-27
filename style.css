@@ -24,6 +24,7 @@ header {
 
 .main {
   display: flex;
+  gap: 18rem;
 }
 
 .left {
@@ -78,8 +79,8 @@ button:hover {
 }
 
 .area {
-  width: 75vw;
-  height: 90vh;
+  width: 700px;
+  height: 700px;
   box-shadow: 5px 10px 20px inset;
   display: flex;
   justify-content: center;
