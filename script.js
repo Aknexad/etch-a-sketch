@@ -34,6 +34,9 @@ const game = () => {
     let selectValue = e.target.value;
     gridArea(selectValue);
     draw();
+    document.querySelector(
+      'p'
+    ).innerHTML = `${selectValue} x ${selectValue}`;
   });
 };
 

@@ -53,6 +53,12 @@ h2 {
 .btn {
   padding: 10px;
 }
+.gridSiz p {
+  text-align: center;
+  font-size: 2rem;
+  border: 2px solid brown;
+  padding: 10px;
+}
 
 .btn button,
 .gridSiz button {
