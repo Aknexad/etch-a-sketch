@@ -71,7 +71,7 @@ button:hover {
   padding: 8px 38px;
 }
 
-.arya {
+.area {
   width: 75vw;
   height: 90vh;
   box-shadow: 5px 10px 20px inset;
@@ -80,7 +80,7 @@ button:hover {
   align-items: center;
 }
 
-.gridArya {
+.gridArea {
   width: 600px;
   height: 600px;
   background-color: brown;
