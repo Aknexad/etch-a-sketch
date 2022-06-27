@@ -45,6 +45,7 @@ const cleanArea = () => {
   clearBtn.addEventListener('click', () => {
     gridArea();
     draw();
+    document.querySelector('#gtidSize').value = 16;
   });
 };
 
