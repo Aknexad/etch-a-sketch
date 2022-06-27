@@ -50,7 +50,22 @@ const cleanArea = () => {
   });
 };
 
+const randomBgColor = () => {
+  let randumBtn = document.querySelector('#random');
+  randumBtn.disabled = true;
+  randumBtn.addEventListener('click', () => {
+    let r = Math.floor(Math.random() * 255);
+    let b = Math.floor(Math.random() * 255);
+    let g = Math.floor(Math.random() * 255);
+
+    document.querySelector(
+      '.fill'
+    ).style.backgroundColor = `rbg(${r},${b},${g})`;
+  });
+};
+
 gridArea();
 draw();
 game();
 cleanArea();
+randomBgColor();
