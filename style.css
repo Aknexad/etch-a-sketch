@@ -95,3 +95,8 @@ button:hover {
 .fill {
   background-color: black;
 }
+
+#gtidSize {
+  width: 20rem;
+  height: auto;
+}
